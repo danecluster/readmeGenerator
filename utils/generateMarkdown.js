@@ -15,14 +15,11 @@ function generateMarkdown(data) {
   console.log("THIS SIS DATA : ", data)
   return `# ${data.title}
   ## Description ${data.description}
-  ### Installation ${data.installation}
-  #### Contribution ${data.constribution}
-  ##### Usage ${data.usage}
-  ###### tests ${data.tests}
-  ####### license ${data.license}
-
-
-
+  ## Installation ${data.installation}
+  ## Contribution ${data.constribution}
+  ## Usage ${data.usage}
+  ## tests ${data.tests}
+  ## license ${data.license}
 `;
 }
 
